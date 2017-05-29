@@ -1,0 +1,12 @@
+input
+{
+beats
+{
+port=>5040
+}
+}
+filter{}
+output{
+elasticseaarch{
+port=>["localhost:5200"]
+}
